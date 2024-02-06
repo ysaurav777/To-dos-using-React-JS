@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/To-dos-using-React-JS.git/static/css/main.32841c8a.css",
+    "main.js": "/To-dos-using-React-JS.git/static/js/main.57f6fe93.js",
+    "index.html": "/To-dos-using-React-JS.git/index.html",
+    "main.32841c8a.css.map": "/To-dos-using-React-JS.git/static/css/main.32841c8a.css.map",
+    "main.57f6fe93.js.map": "/To-dos-using-React-JS.git/static/js/main.57f6fe93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32841c8a.css",
+    "static/js/main.57f6fe93.js"
+  ]
+}
