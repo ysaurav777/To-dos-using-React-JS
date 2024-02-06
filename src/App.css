@@ -1,0 +1,82 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+nav {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(199, 235, 245);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,textarea,button {
+  padding: 10px;
+  border: 1px solid rgba(209, 155, 155, 0.214);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(2, 12, 2);
+  color: white;
+}
+
+.container> h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 2rem;
+}
+
+
+.task {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  margin-right: 15px;
+  background-color: rgb(243, 223, 232);
+  padding: 10px;
+}
+
+.task > div {
+width: 100%;
+margin: 10px;
+}
+
+.task > span {
+  color: rgba(49, 40, 40, 0.203);
+  }
+
+.task > button {
+  border-radius: 25px;
+  background-color: rgb(11, 152, 11);
+  height: 40px;
+  width: 40px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task >button:hover {
+  background-color: red;
+}
